@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://war8q4tpr2bl"]
+
+[ext_resource type="Script" path="res://Scripts/test_scene.gd" id="1_8qdht"]
+[ext_resource type="Script" path="res://addons/gift/gift_node.gd" id="2_eckli"]
+
+[node name="TestScene" type="Node2D"]
+script = ExtResource("1_8qdht")
+
+[node name="Gift" type="Node" parent="."]
+script = ExtResource("2_eckli")
+
+[node name="testRect" type="ColorRect" parent="."]
+offset_right = 479.0
+offset_bottom = 279.0
